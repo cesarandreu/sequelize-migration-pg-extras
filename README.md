@@ -5,9 +5,11 @@ Easily add `npm run db:create` and `npm run db:drop` to your Sequelize project u
 
 ## Usage
 
-`npm install --save sequelize-migration-pg-extras`
+```sh
+$ npm install sequelize-migration-pg-extras
+```
 
-And then add the following to the scripts section in package.json:
+Then add the following to the scripts section in package.json:
 
 ```json
 {
@@ -21,7 +23,8 @@ And then add the following to the scripts section in package.json:
 
 ## Configuration
 
-If a `.sequelizerc` file is found, it will check the config location from there. Otherwise it will search in `config/config.json`.
+If a `.sequelizerc` file is found, it will attempt the config location from there.
+Otherwise it will use `config/config.json`.
 
 
 ## Test
@@ -37,8 +40,9 @@ To test using `.sequelizerc`: `cd test/sequelizerc`
 
 ### create_database
 
-* `../../lib/create_database.js`
-
+```sh
+$ ../../lib/create_database.js
+```
 
 **Scenarios:**
 
@@ -62,8 +66,9 @@ Database exists:
 
 ### drop_database
 
-* `../../lib/drop_database.js`
-
+```sh
+$ ../../lib/drop_database.js
+```
 
 **Scenarios:**
 
