@@ -1,6 +1,6 @@
 {
   "name": "sequelize-migration-pg-extras",
-  "description": "Easily add db:create and db:drop commands",
+  "description": "Add db:create and db:drop scripts to your project",
   "license": "MIT",
   "keywords": ["sequelize", "postgres"],
   "version": "1.0.0",

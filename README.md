@@ -1,6 +1,6 @@
 # sequelize-migration-pg-extras
 
-Easily add `npm run db:create` and `npm run db:drop`
+Easily add `npm run db:create` and `npm run db:drop` to your Sequelize project using Postgres.
 
 
 ## Usage
