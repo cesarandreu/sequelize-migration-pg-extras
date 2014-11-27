@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": null,
+    "password": null,
+    "database": "sequelize_migration_pg_extras_development",
+    "host": "127.0.0.1",
+    "dialect": "pg"
+  },
+  "test": {
+    "username": null,
+    "password": null,
+    "database": "sequelize_migration_pg_extras_test",
+    "host": "127.0.0.1",
+    "dialect": "pg"
+  },
+  "production": {
+    "username": null,
+    "password": null,
+    "database": "sequelize_migration_pg_extras_production",
+    "host": "127.0.0.1",
+    "dialect": "pg"
+  }
+}

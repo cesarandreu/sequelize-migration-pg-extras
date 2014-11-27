@@ -1,0 +1,29 @@
+{
+  "name": "sequelize-migration-pg-extras",
+  "description": "Easily add db:create and db:drop commands",
+  "license": "MIT",
+  "keywords": ["sequelize", "postgres"],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cesarandreu/sequelize-migration-pg-extras.git"
+  },
+  "author": {
+    "name": "Cesar Andreu",
+    "email": "cesarandreu@gmail.com",
+    "url": "https://github.com/cesarandreu"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no automated tests\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^4.0.0"
+  },
+  "bin": {
+    "create_database": "lib/create_database.js",
+    "drop_database": "lib/drop_database.js"
+  }
+}
